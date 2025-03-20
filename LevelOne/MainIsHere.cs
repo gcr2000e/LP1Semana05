@@ -2,10 +2,6 @@
 
 public class MainIsHere
 {
-        /// <summary>
-        /// Main is here!
-        /// </summary>
-         <param name = "args" ></ param >
         private static void Main(string[] args)
     {
         Console.WriteLine("Nice Day!");
