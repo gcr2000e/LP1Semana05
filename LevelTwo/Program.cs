@@ -1,6 +1,7 @@
 ﻿using System;
 using SixLabors.ImageSharp.Formats.Gif;
 using Spectre.Console;
+using SoGoodLib;
 
 namespace LevelTwo
 {
@@ -16,6 +17,7 @@ namespace LevelTwo
 
             if (args.Length >= 2)
             {
+                Console.WriteLine(SoGoodClass.SoGoodMethod());
                 CanvasImage image2 = new CanvasImage(randomImage);
                 image2.MaxWidth(Width);
                 AnsiConsole.Write(image2);
