@@ -1,6 +1,5 @@
 ﻿using System;
 
-<<<<<<< HEAD
 public class MainIsHere
 {
         /// <summary>
@@ -11,21 +10,14 @@ public class MainIsHere
     {
         Console.WriteLine("Nice Day!");
     }
-
-=======
+}
 namespace LevelOne
 {
->>>>>>> testing
     public class MainIsHere
     {
         private static void Main(string[] args)
-
-
-    }
-
-=======
+        {
             Console.WriteLine("Bad day?");
         }
-    
->>>>>>> testing
+    }
 }
