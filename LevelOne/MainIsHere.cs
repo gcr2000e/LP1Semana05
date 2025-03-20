@@ -2,11 +2,11 @@
 
 namespace LevelOne
 {
-    public class Program
+    public class MainIsHere
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            Console.WriteLine("Bad day?");
         }
     }
 }
