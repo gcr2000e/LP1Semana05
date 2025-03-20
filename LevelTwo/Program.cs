@@ -8,7 +8,7 @@ namespace LevelTwo
         private static void Main(string[] args)
         {
             CanvasImage image = new CanvasImage("tux.jpg");
-            image.MaxWidth(40);
+            image.MaxWidth(20);
             AnsiConsole.Write(image);
         }
     }
